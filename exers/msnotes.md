@@ -358,7 +358,7 @@ $$
 f(x_1,x_2,\cdots,x_n;\theta)=g(T(x_1,x_2,\cdots,x_n),\theta)h(x_1,x_2,\cdots,x_n).
 $$
 
-Possion 分布具有再生性:
+Poisson 分布具有再生性:
 
 若 $X_i\sim P(\lambda)$, $i=1,2,\cdots,n$, 则
 
@@ -549,7 +549,7 @@ f_Y(y) &= f_S(s) |\frac{ds}{dy}|\\
 \end{aligned}
 $$
 
-二项分布与 Possion 分布在大样本下使用 CLT 逼近 $N(0,1)$.
+二项分布与 Poisson 分布在大样本下使用 CLT 逼近 $N(0,1)$.
 
 ## 假设检验
 
@@ -620,7 +620,7 @@ $$
 
 由于指数分布 $E(\lambda)$ 的均值 $\mu=1/\lambda$, 因此若在 $\lambda$ 上做假设, 此时的拒绝域与 $H_1$ 的方向相反.
 
-Possion 分布在大样本下使用 CLT 逼近 $N(0,1)$.
+Poisson 分布在大样本下使用 CLT 逼近 $N(0,1)$.
 
 二项分布在大样本下使用 CLT 逼近 $N(0,1)$.
 
