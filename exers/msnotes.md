@@ -497,6 +497,7 @@ $$
 |单总体方差, $\mu$ 未知|$\frac{(n-1)S^2}{\sigma^2}$|$\chi^2(n-1)$|
 |双总体均值差, $\sigma_1,\sigma_2$ 已知|$\frac{(\overline Y-\overline X)-(\mu_2-\mu_1)}{\sqrt{\sigma^2_1/m+\sigma_2^2/n}}$|$N(0,1)$|
 |双总体均值差, $\sigma_1=\sigma_2$ 未知|$\frac{(\overline Y-\overline X)-(\mu_2-\mu_1)}{S_\omega\sqrt{1/m+1/n}}$|$t(m+n-2)$|
+|双总体均值差, $\sigma_1$, $\sigma_2$ 未知但 $m=n$|$\frac{\overline Z-(\mu_2-\mu_1)}{S_z/\sqrt{n}}$|$t(m+n-2)$|
 |双总体方差比, $\mu_1,\mu_2$ 已知|$\frac{S_{\mu1}^2/S_{\mu2}^2}{\sigma_1^2/\sigma_2^2}$|$F(m,n)$|
 |双总体方差比, $\mu_1,\mu_2$ 未知|$\frac{S_1^2/S_2^2}{\sigma_1^2/\sigma_2^2}$|$F(m-1,n-1)$|
 
@@ -589,6 +590,7 @@ $$
 |单总体方差, $\mu$ 未知|$\frac{(n-1)S^2}{\sigma^2}$|$\chi^2(n-1)$|
 |双总体均值差, $\sigma_1,\sigma_2$ 已知|$\frac{(\overline Y-\overline X)-(\mu_2-\mu_1)}{\sqrt{\sigma^2_1/m+\sigma_2^2/n}}$|$N(0,1)$|
 |双总体均值差, $\sigma_1=\sigma_2$ 未知|$\frac{(\overline Y-\overline X)-(\mu_2-\mu_1)}{S_\omega\sqrt{1/m+1/n}}$|$t(m+n-2)$|
+|双总体均值差, $\sigma_1$, $\sigma_2$ 未知但 $m=n$|$\frac{\overline Z-(\mu_2-\mu_1)}{S_z/\sqrt{n}}$|$t(m+n-2)$|
 |双总体方差比, $\mu_1,\mu_2$ 已知|$\frac{S_{\mu1}^2/S_{\mu2}^2}{\sigma_1^2/\sigma_2^2}$|$F(m,n)$|
 |双总体方差比, $\mu_1,\mu_2$ 未知|$\frac{S_1^2/S_2^2}{\sigma_1^2/\sigma_2^2}$|$F(m-1,n-1)$|
 
